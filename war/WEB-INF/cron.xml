@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cronentries>
+  <cron>
+    <url>/reply</url>
+    <description>Reply check every 2 minutes</description>
+    <schedule>every 2 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/direct</url>
+    <description>DirectMessage check every 5 minutes</description>
+    <schedule>every 5 minutes</schedule>
+  </cron>
+</cronentries>

@@ -1,0 +1,13 @@
+#Sat Jul 02 21:14:46 JST 2011
+duplicateIdAttribute=1
+eclipse.preferences.version=1
+invalidIdAttribute=1
+missingIdAttribute=1
+namespaces.0=m\:http\://mayaa.seasar.org
+notexistIdAttribute=1
+replaceRule.0=*\t<m\:echo id\="$id"></m\:echo>
+replaceRule.1=//span\t<m\:write id\="${id}" value\="${${id}}" />
+replaceRule.2=//textarea\t<m\:echo id\="${id}"><m\:attribute name\="name" value\="${id}" /><m\:write value\="${${id}}" escapeEol\="false" /></m\:echo>
+replaceRule.3=//input[@type\="text" or @type\="hidden"]\t<m\:echo id\="${id}"><m\:attribute name\="name" value\="${id}" /><m\:attribute name\="value" value\="${${id}}" /></m\:echo>
+replaceRule.4=//input[@type\="password" or @type\="file"]\t<m\:echo id\="${id}"><m\:attribute name\="name" value\="${id}" /></m\:echo>
+undefineIdAttribute=1
